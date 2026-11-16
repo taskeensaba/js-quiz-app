@@ -74,7 +74,7 @@ width: 100%;
 .hidden {
     display: none !important;
 }
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     #quiz-container, #start-screen {
         padding: 15px;      /* Less padding so text doesn't feel cramped */
         width: 100%;        /* Take up the whole screen width */
