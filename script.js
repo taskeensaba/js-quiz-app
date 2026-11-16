@@ -21,7 +21,7 @@ let currentIndex = 0;
 
 function render() {
   if (currentIndex >= quizData.length) {
-    container.innerHTML = `<h2>Quiz Finished! 🎉</h2>}
+    container.innerHTML = `<h2>Quiz Finished! 🎉</h2>
      <h3> your score: ${score}</h3>`;
     return;
   }
@@ -71,6 +71,8 @@ btn.addEventListener("click", function() {
   score=0
   render();
 });
+
+// https://taskeensaba.github.io/js-quiz-app/
 
 
 
